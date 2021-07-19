@@ -3,7 +3,6 @@ import path from 'path'
 import matter from 'gray-matter'
 import marked from 'marked'
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function PostPage({
   fm: { title, date, cover_image },
@@ -14,9 +13,8 @@ export default function PostPage({
     <>
       <Link href="/">Back</Link>
       {title} on {date}
-      <Image src={cover_image} 
+      <img src={cover_image} 
        className="thumbnail"
-        layout="intrinsic"
         width={250}
         height={150}
         alt={title}/>
