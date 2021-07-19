@@ -1,12 +1,17 @@
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
 
 export default function Header() {
   return (
-    <header className={styles.header}>
-      <Link href="/" passHref={true}>
+    <header>
+      <div className="name">
         Meu =D
-      </Link>
+        <div className="nav">
+          <Link href="/" passHref={true}>
+            Home
+          </Link>
+        </div>
+      </div>
+      <div className="bio">Software Engineer, Gamer</div>
     </header>
   )
 }
