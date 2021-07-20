@@ -21,6 +21,13 @@ h6,
     color: $standout;
 }
 
+.title {
+    a {
+        color: $content;
+        text-decoration: none;
+    }
+}
+
 .page-title {
     font-size: 1.75rem;
 }
