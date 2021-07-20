@@ -11,14 +11,14 @@ export default function PostPage({
 }) {
   return (
     <>
-      <Link href="/">Back</Link>
-      {title} on {date}
-      <img src={cover_image} 
-       className="thumbnail"
-        width={250}
-        height={150}
-        alt={title}/>
+     
+      <div className="post">
+        <h4 className="post-title">{title}</h4>
+        <div className="date">{date}</div>
+      </div>
       <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+
+      <Link href="/">← Go back</Link>
     </>
   )
 }

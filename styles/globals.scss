@@ -1,7 +1,7 @@
+@import 'responsive.scss';
 $content:#ffffff;
 $standout:#21ca86;
 $bg: #282c35;
-$padding:20px 25%;
 html,
 body {
     padding: 0;
@@ -19,6 +19,10 @@ h5,
 h6,
 .title {
     color: $standout;
+}
+
+.page-title {
+    font-size: 1.75rem;
 }
 
 a,
@@ -61,10 +65,6 @@ header {
     flex-direction: column;
 }
 
-.container {
-    padding: $padding;
-}
-
 .home {
     display: flex;
     .post {
@@ -97,4 +97,18 @@ header {
     * {
         margin-bottom: 10px;
     }
+}
+
+pre {
+    background: #000000;
+    padding: 15px;
+    border-radius: 15px;
+    code {
+        white-space: break-spaces;
+    }
+}
+
+blockquote {
+    border-left: 2px solid $standout;
+    padding: 13px;
 }

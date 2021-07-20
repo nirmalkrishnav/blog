@@ -6,7 +6,6 @@ excerpt: 'Old post'
 cover_image: '/images/posts/pbd.png'
 ---
 
-## I learnt to shuffle an array and an important lesson.
 😏All these years I have faced the constant problem of sorting an array of int, strings, by property value. 
 
 😳I have never thought how can I shuffle this sorted array (even unsorted array).

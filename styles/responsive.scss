@@ -1,0 +1,13 @@
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$padding-tablet: 20px 5%;
+$padding:20px 25%;
+.container {
+    padding: $padding;
+}
+
+@media (max-width: $tablet-width) {
+    .container {
+        padding: $padding-tablet;
+    }
+}
