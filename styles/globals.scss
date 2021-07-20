@@ -36,7 +36,6 @@ header {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding: $padding;
     .name {
         .title {
             font-size: 1.75rem;
@@ -54,11 +53,12 @@ header {
             }
         }
     }
-    .bio {
-        font-size: 1em;
-        display: flex;
-        flex-direction: column;
-    }
+}
+
+.bio {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -79,7 +79,6 @@ header {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding: $padding;
     margin-top: 15%;
 }
 

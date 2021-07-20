@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Bio from './bio'
 
 export default function Header() {
   return (
@@ -13,10 +14,6 @@ export default function Header() {
             About
           </Link>
         </div>
-      </div>
-      <div className="bio">
-        <span>Personal Blog by Nirmal Krishna</span>
-        <span>I am a software engineer, gamer</span>
       </div>
     </header>
   )

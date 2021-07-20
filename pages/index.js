@@ -4,6 +4,7 @@ import Head from 'next/head'
 import matter from 'gray-matter'
 import Post from '../components/Post'
 import { sortByDate } from '../utils'
+import Bio from '../components/bio'
 
 export default function Home({ posts }) {
   return (
@@ -14,6 +15,7 @@ export default function Home({ posts }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
+        <Bio />
         {posts.map((post, i) => {
           return <Post key={i} post={post} />
         })}

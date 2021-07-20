@@ -5,11 +5,11 @@ import Footer from '../components/Footer'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Header />
       <main className="container">
+      <Header />
         <Component {...pageProps} />
-      </main>
       <Footer />
+      </main>
     </>
   )
 }
