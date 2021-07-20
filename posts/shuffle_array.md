@@ -1,5 +1,6 @@
 ---
 title: 'I learnt to shuffle an array and an important lesson'
+gist: 'Would I have come up with similar algo. without google?'
 date: 'Aug 04, 2020'
 excerpt: 'Old post'
 cover_image: '/images/posts/pbd.png'

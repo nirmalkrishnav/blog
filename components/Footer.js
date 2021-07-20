@@ -1,20 +1,15 @@
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
-import Image from 'next/image'
 
-export default function Footer(){
-    return(
-      <footer className={styles.footer}>
-      <a
-        href=""
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Powered by{' '}
-        <span className={styles.logo}>
-          <img src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </span>
-      </a>
+export default function Footer() {
+  return (
+    <footer className="footer">
+      <div className="socials">
+        <Link href="https://github.com/nirmalkrishnav">github</Link>
+        &nbsp;•&nbsp;
+        <Link href="https://www.linkedin.com/in/nirmal-krishna/">linkedIn</Link>
+        &nbsp;•&nbsp;
+        <Link href="https://twitter.com/meuequalsd?lang=en">twitter</Link>
+      </div>
     </footer>
-    )
+  )
 }
